@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(23, 0, 44);
+    color:white     
+}
+h1{
+    font-size:4em;
+}
+#inputField, #addTaskButton, #tasksContainer{
+    font-size:150%;
+}
+#inputField, .btn-light{
+    background-color: rgb(200, 200, 200);
+    box-shadow: none!important;
+    outline:none;
+}
+.btn-primary{
+    background-color:  rgb(80, 186, 166);;
+    border:rgb(80, 186, 166);
+    color:#17002c;
+}
+.btn-primary:hover{
+    background-color:  rgba(80, 186, 166, 0.573)!important;
+}
+.input-group{
+    border:solid 3px rgb(23, 0, 44);
+    padding:0;
+    border-radius:12px;
+}
+#clearButton{
+    border:none;
+}
+#tasksContainer div:first-child{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#tasksContainer div:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.taskDiv{
+    background-color:rgb(80, 186, 166);
+    color:black;
+    font-size:150%;
+}
+.taskDiv:hover{
+    background-color:  rgb(68, 160, 144);
+}
+@media (min-width:900px) {
+    .container{
+        max-width: 60%;
+    } 
+}
